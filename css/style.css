@@ -1,39 +1,43 @@
-body {
+a {
+  color: #d21034;
+}
+
+.masthead {
+  /* padding will fill the top of the page black background */  
+    padding: 20px 0;
+    background: #333333;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    color: #eee;
+    font-size: 28px;
+    text-align: center;
+    float: center;
+  }
+
+  .row {
     margin: 0;
     padding: 0;
-    background-color: #efeee7;
+    background: #efeee7;
     font-size: 1em;
     font-family: Georgia,"Times New Roman",Times,serif;
     color: #333333;
     text-align: left;
-}
-
-.masthead {
-    background-color: #333333;
-    color: #eee;
-    font-size: 28px;
-    text-align: center;
-  }
-
-  .container {
-    width: 1024px;
-    font-size: 28px;
-    margin: 0 auto;
-  }
-
-  #main-bio {
-    float: left;
-    font-size: 14px;
-    
-  }
-
-  #contact-info {
-    float: left;
-    font-size: 28px;
+    line-height: 150%;
   }
 
   #bio-image {
     float: left;
-    width: 200px;
-    padding: 3px;
+    padding: 0 20px;
+  }
+
+  #blank-col {
+    display: none;
+  }
+
+  h2 {
+    font-size: 24px;
+    padding: 20px; 
+  }
+
+  html {
+    background: #efeee7;
   }
